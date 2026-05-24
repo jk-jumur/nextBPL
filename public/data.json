@@ -1,0 +1,52 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 95,
+    "battingStyle": "Right-hand bat",
+    "bolingStyle": "Right-arm medium",
+    "price": 1500000,
+    "playerImage": "https://i.ibb.co.com/84KBpjMK/1938706-gv-dmoxkaaz9is.webp"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 92,
+    "battingStyle": "Left-hand bat",
+    "bolingStyle": "Right-arm fast-medium",
+    "price": 1800000,
+    "playerImage": "https://example.com/images/ben-stokes.jpg"
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-hand bat",
+    "bolingStyle": "Right-arm offbreak",
+    "price": 1400000,
+    "playerImage": "https://example.com/images/babar-azam.jpg"
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerType": "Bowler",
+    "rating": 94,
+    "battingStyle": "Right-hand bat",
+    "bolingStyle": "Right-arm legbreak googly",
+    "price": 1700000,
+    "playerImage": "https://example.com/images/rashid-khan.jpg"
+  },
+  {
+    "playerName": "Jos Buttler",
+    "playerCountry": "England",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bolingStyle": "None",
+    "price": 1600000,
+    "playerImage": "https://example.com/images/jos-buttler.jpg"
+  }
+]
