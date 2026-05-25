@@ -1,13 +1,13 @@
 [
   {
-    "playerName": "Virat Kohli",
-    "playerCountry": "India",
+    "playerName": "Fedri",
+    "playerCountry": "Barcelona",
     "playerType": "Batsman",
     "rating": 95,
     "battingStyle": "Right-hand bat",
-    "bolingStyle": "Right-arm medium",
+    "bowlingStyle": "Right-arm medium",
     "price": 1500000,
-    "playerImage": "https://i.ibb.co.com/84KBpjMK/1938706-gv-dmoxkaaz9is.webp"
+    "playerImage": "https://i.ibb.co.com/tw9z18KT/images-14.jpg"
   },
   {
     "playerName": "Ben Stokes",
@@ -15,9 +15,9 @@
     "playerType": "All-Rounder",
     "rating": 92,
     "battingStyle": "Left-hand bat",
-    "bolingStyle": "Right-arm fast-medium",
+    "bowlingStyle": "Right-arm fast-medium",
     "price": 1800000,
-    "playerImage": "https://example.com/images/ben-stokes.jpg"
+    "playerImage": "https://i.ibb.co.com/PvXCs84d/images-7.jpg"
   },
   {
     "playerName": "Babar Azam",
@@ -25,9 +25,9 @@
     "playerType": "Batsman",
     "rating": 91,
     "battingStyle": "Right-hand bat",
-    "bolingStyle": "Right-arm offbreak",
+    "bowlingStyle": "Right-arm offbreak",
     "price": 1400000,
-    "playerImage": "https://example.com/images/babar-azam.jpg"
+    "playerImage": "https://i.ibb.co.com/JwpYycpL/0-vv-NWx2ad-KLi0yly8.jpg"
   },
   {
     "playerName": "Rashid Khan",
@@ -35,18 +35,30 @@
     "playerType": "Bowler",
     "rating": 94,
     "battingStyle": "Right-hand bat",
-    "bolingStyle": "Right-arm legbreak googly",
+    "bowlingStyle": "Right-arm legbreak googly",
     "price": 1700000,
-    "playerImage": "https://example.com/images/rashid-khan.jpg"
+    "playerImage": "https://i.ibb.co.com/xNBr7H1/images-10.jpg"
   },
   {
-    "playerName": "Jos Buttler",
-    "playerCountry": "England",
+    "playerName": "Josko Gvardiol",
+    "playerCountry": "Manchester City",
     "playerType": "Wicketkeeper-Batsman",
     "rating": 90,
     "battingStyle": "Right-hand bat",
-    "bolingStyle": "None",
+    "bowlingStyle": "None",
     "price": 1600000,
-    "playerImage": "https://example.com/images/jos-buttler.jpg"
+    "playerImage": "https://i.ibb.co.com/ch3hMv4z/images-11.jpg"
+  },
+
+    {
+    "playerName": "Gavi",
+    "playerCountry": "Barcelona",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 1600000,
+    "playerImage": "https://i.ibb.co.com/Q72PW3k8/images-12.jpg"
   }
+
 ]
