@@ -4,11 +4,12 @@ import SelectedPlayers from "./SelectedPlayers/SelectedPlayers";
 
 
 
-const Players = ({playersPromise}) => {
+const Players = ({playersPromise, setCoin, coin}) => {
       console.log(playersPromise)
     const players = use(playersPromise) 
     console.log(players);
       const [selectedType, setSelectedType] = useState("available");
+      
       console.log(selectedType, "selectedType")
     return (
         <div className="container mx-auto my-[60px]">
@@ -26,7 +27,7 @@ const Players = ({playersPromise}) => {
               </div>
            </div>
 
-         { selectedType === "available" ? (<AvailablePlayers players={players}></AvailablePlayers>) : (<SelectedPlayers></SelectedPlayers>)}
+         { selectedType === "available" ? (<AvailablePlayers players={players} setCoin={setCoin} coin={coin}></AvailablePlayers>) : (<SelectedPlayers></SelectedPlayers>)}
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import DollarImg from '../../assets/dollar 1.png'
 
-const NavBar = () =>{
+const NavBar = ({coin}) =>{
     return(
             <div className="navbar bg-base-100 shadow-sm container mx-auto">
     <div className="flex-1">
@@ -8,7 +8,7 @@ const NavBar = () =>{
    </div>
     <div className="flex-none">
     <button className=" flex justify-between items-center gap-2 font-bold text-2xl">
-          0 Coin
+         {coin} Coin
          <img src={DollarImg} alt="" />
     </button>
     </div>

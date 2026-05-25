@@ -1,7 +1,24 @@
 
+import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoFlagSharp } from "react-icons/io5";
-const Card = ({player}) => {
+const Card = ({player, setCoin, coin}) => {
+    const [isSelected, setIsSelected] = useState(false)
+
+    const handleChoosePlayer = () => {
+
+
+           let newCoin = coin- player.price
+          if(newCoin >= 0){
+             setCoin(coin-player.price);
+          } else{
+            alert("Not enough coin to purchase this player")
+            return;
+          }
+          alert(`${player.playerName} is selected`);
+          setIsSelected(true); 
+         
+    }
     return (
         <div className="card bg-base-100 w-96 shadow-sm">
                         
@@ -31,7 +48,8 @@ const Card = ({player}) => {
      
     <div className="card-actions justify-between items-center">
          <p className="font-semibold">Price: ${player.price}</p>
-      <button className="btn">{player.playerType}</button>
+      <button  onClick={handleChoosePlayer 
+       } className="btn" disabled={isSelected}>{isSelected === true ? "Selected" : "Choose Players" }</button>
     </div>
   </div>
 </div>
