@@ -19,16 +19,7 @@
     "price": 1000,
     "playerImage": "https://i.ibb.co.com/PvXCs84d/images-7.jpg"
   },
-  {
-    "playerName": "Babar Azam",
-    "playerCountry": "Pakistan",
-    "playerType": "Batsman",
-    "rating": 91,
-    "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
-    "price": 400,
-    "playerImage": "https://i.ibb.co.com/JwpYycpL/0-vv-NWx2ad-KLi0yly8.jpg"
-  },
+
   {
     "playerName": "Rashid Khan",
     "playerCountry": "Afghanistan",
